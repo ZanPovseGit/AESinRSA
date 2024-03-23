@@ -1,0 +1,32 @@
+﻿<Window x:Class="AESinRSA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AESinRSA"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="329.837" Width="648.036">
+    <Grid>
+
+        <TextBox Name="pot" HorizontalAlignment="Left" Height="21" Margin="41,23,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="314"/>
+        <Button Content="Poisci" HorizontalAlignment="Left" Margin="427,23,0,0" VerticalAlignment="Top" Width="106" Click="Button_Click"/>
+        <RadioButton Content="Enkript AES" Name="aese" HorizontalAlignment="Left" Margin="82,156,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Dekript AES" Name="aesd" HorizontalAlignment="Left" Margin="185,156,0,0" VerticalAlignment="Top"/>
+        <Button Content="RSA enkripcija ključa" HorizontalAlignment="Left" Margin="344,141,0,0" VerticalAlignment="Top" Width="192" Height="30" Click="Button_Click_2"/>
+        <TextBox Name="geslo" HorizontalAlignment="Left" Height="28" Margin="82,99,0,0" TextWrapping="Wrap" Text="-geslo-" VerticalAlignment="Top" Width="184"/>
+        <Button Content="AES" HorizontalAlignment="Left" Margin="82,249,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click_1" Height="30"/>
+        <Label Content="Velikost kljuca" HorizontalAlignment="Left" Margin="185,197,0,0" VerticalAlignment="Top" Width="86"/>
+        <ComboBox HorizontalAlignment="Left" Name="vel" SelectedIndex="0" Margin="82,201,0,0" VerticalAlignment="Top" Width="98">
+            <ComboBoxItem Content="256" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="192" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="128" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+        <Label Content="Za kriptiranje:" HorizontalAlignment="Left" Margin="347,68,0,0" VerticalAlignment="Top"/>
+        <Label Content="" BorderBrush="Black" Name="rsaen" BorderThickness="1" HorizontalAlignment="Left" Margin="344,99,0,0" VerticalAlignment="Top" Width="189"/>
+        <Label Content="Kljuc za kriptiranje:" HorizontalAlignment="Left" Margin="82,68,0,0" VerticalAlignment="Top"/>
+        <Button Content="RSA Dekripcija datoteke" HorizontalAlignment="Left" Margin="347,249,0,0" VerticalAlignment="Top" Width="189" Height="29" Click="Button_Click_3"/>
+        <Label Content="" BorderBrush="Black" x:Name="dekripRSA" BorderThickness="1" HorizontalAlignment="Left" Margin="347,216,0,0" VerticalAlignment="Top" Width="189"/>
+        <Label Content="Dekriptirani kljuc" HorizontalAlignment="Left" Margin="347,185,0,0" VerticalAlignment="Top" Width="105"/>
+
+    </Grid>
+</Window>

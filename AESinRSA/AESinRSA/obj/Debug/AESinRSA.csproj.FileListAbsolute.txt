@@ -1,0 +1,15 @@
+C:\Users\zan\source\repos\AESinRSA\AESinRSA\bin\Debug\AESinRSA.exe.config
+C:\Users\zan\source\repos\AESinRSA\AESinRSA\bin\Debug\AESinRSA.exe
+C:\Users\zan\source\repos\AESinRSA\AESinRSA\bin\Debug\AESinRSA.pdb
+C:\Users\zan\source\repos\AESinRSA\AESinRSA\obj\Debug\AESinRSA.csprojAssemblyReference.cache
+C:\Users\zan\source\repos\AESinRSA\AESinRSA\obj\Debug\MainWindow.g.cs
+C:\Users\zan\source\repos\AESinRSA\AESinRSA\obj\Debug\App.g.cs
+C:\Users\zan\source\repos\AESinRSA\AESinRSA\obj\Debug\AESinRSA_MarkupCompile.cache
+C:\Users\zan\source\repos\AESinRSA\AESinRSA\obj\Debug\AESinRSA_MarkupCompile.lref
+C:\Users\zan\source\repos\AESinRSA\AESinRSA\obj\Debug\MainWindow.baml
+C:\Users\zan\source\repos\AESinRSA\AESinRSA\obj\Debug\AESinRSA.g.resources
+C:\Users\zan\source\repos\AESinRSA\AESinRSA\obj\Debug\AESinRSA.Properties.Resources.resources
+C:\Users\zan\source\repos\AESinRSA\AESinRSA\obj\Debug\AESinRSA.csproj.GenerateResource.cache
+C:\Users\zan\source\repos\AESinRSA\AESinRSA\obj\Debug\AESinRSA.csproj.CoreCompileInputs.cache
+C:\Users\zan\source\repos\AESinRSA\AESinRSA\obj\Debug\AESinRSA.exe
+C:\Users\zan\source\repos\AESinRSA\AESinRSA\obj\Debug\AESinRSA.pdb
